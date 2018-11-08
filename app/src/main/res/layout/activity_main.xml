@@ -37,4 +37,23 @@
         app:layout_constraintStart_toEndOf="@+id/editText"
         tools:text="@string/button_send" />
 
+    <Button
+        android:id="@+id/showUiElementsButton"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="showUiActivity"
+        android:text="@string/button_ui"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        tools:text="@string/button_ui" />
+
 </android.support.constraint.ConstraintLayout>

@@ -27,4 +27,8 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(EXTRA_MESSAGE, message.isEmpty() ? "Keine Eingabe" : message);
         startActivity(intent);
     }
+
+    public void showUiActivity(View view) {
+        startActivity(new Intent(this, UiElementsActivity.class));
+    }
 }

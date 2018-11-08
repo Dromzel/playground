@@ -2,4 +2,9 @@
     <string name="app_name">Playground</string>
     <string name="button_send">Send</string>
     <string name="edit_message">Enter a message</string>
+    <string name="activity_two">Overview</string>
+    <string name="activity_ui">Choose a timespan!</string>
+    <string name="button_ui">Switch to UI elements</string>
+    <string name="datepicker_from">From...</string>
+    <string name="datepicker_to">To...</string>
 </resources>
