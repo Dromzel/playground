@@ -31,4 +31,8 @@ public class MainActivity extends AppCompatActivity {
     public void showUiActivity(View view) {
         startActivity(new Intent(this, UiElementsActivity.class));
     }
+
+    public void showPicturesActivity(View view) {
+        startActivity(new Intent(this, PicturesActivity.class));
+    }
 }

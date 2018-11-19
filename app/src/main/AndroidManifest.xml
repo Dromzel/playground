@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="de.mvo.playground">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -25,9 +27,14 @@
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".MainActivity" />
 
-        <activity android:name=".UiElementsActivity"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/activity_ui"></activity>
+        <activity
+            android:name=".UiElementsActivity"
+            android:label="@string/activity_ui"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PicturesActivity"
+            android:label="Picasso Test"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
