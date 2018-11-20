@@ -10,4 +10,5 @@
     <string name="button_pictures">Switch to Pictures</string>
     <string name="title_activity_pictures">PicturesActivity</string>
     <string name="button_hasseroeder">Load Beer</string>
+    <string name="timepicker_new">Choose Time...</string>
 </resources>

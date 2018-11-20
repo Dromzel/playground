@@ -43,4 +43,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dateSelector" />
 
+    <EditText
+        android:id="@+id/newTimePicker"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="160dp"
+        android:clickable="true"
+        android:ems="10"
+        android:inputType="date"
+        android:onClick="openTimePickerAsFragment"
+        android:text="@string/timepicker_new"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentDateSetter" />
+
 </android.support.constraint.ConstraintLayout>
